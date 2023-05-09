@@ -27,7 +27,7 @@ enum instrumentation_vars {
 	INSTRUMENT_NUM,
 };
 
-atomic_uint_least64_t Instrustats[INSTRUMENT_NUM];
+static atomic_uint_least64_t Instrustats[INSTRUMENT_NUM];
 static const char *Instruprint[INSTRUMENT_NUM] =
 {
 	"open",
